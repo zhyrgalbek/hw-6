@@ -1,0 +1,15 @@
+.block form {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.block input[type="text"] {
+    width: 75%;
+    padding: 10px 10px;
+}
+
+.block input[type="submit"] {
+    width: 20%;
+}
